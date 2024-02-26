@@ -12,7 +12,7 @@ function Accueil() {
           <h3 className="h3">
             Syndic <span className="span">Coopératif</span>
           </h3>
-          <p>Automatisation de vos taches dans la     <br />  copropriété</p>
+          <p className="tpara">Automatisation de vos taches dans la copropriété</p>
 
           <div className="button-container"></div>
           <button className="button1">Obtenir un devis gratuit</button>
@@ -22,7 +22,7 @@ function Accueil() {
           <h3 className="h3">
             Multi- <span className="span">Copropriété</span>
           </h3>
-          <p>
+          <p className="tpara">
             Vous pouvez gerer toutes votre copropriété dans une seule plateforme
           </p>
           <button className="button1">Obtenir un devis gratuit</button>
@@ -95,12 +95,12 @@ function Accueil() {
       </div>
 
 
-      <div>
+      <div className="video">
         <h3 className="titre3">Decouvrez notre logiciel</h3>
-        <ReactPlayer url='https://youtu.be/SMcztSqSQ18' />
-        <div>
-          <button>Demander votre démo</button>
-        </div>
+        <ReactPlayer url='https://youtu.be/EyHSWJdDyXA' />
+        <br />
+          <button className="button1">Demander votre démo</button>
+        
       </div>
       <Footer />
     </>
