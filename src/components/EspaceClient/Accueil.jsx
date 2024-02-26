@@ -12,7 +12,9 @@ function Accueil() {
           <h3 className="h3">
             Syndic <span className="span">Coopératif</span>
           </h3>
-          <p>Automatisation de vos taches dans la copropriété</p>
+          <p>Automatisation de vos taches dans la     <br />  copropriété</p>
+
+          <div className="button-container"></div>
           <button className="button1">Obtenir un devis gratuit</button>
         </div>
 
@@ -85,7 +87,11 @@ function Accueil() {
           </div>
         </div>
 
-        <button className="voirplus">Voir plus</button>
+      <div className="button-container">
+      <button className="voirplus">Voir plus</button>
+
+      </div>
+
       </div>
 
 
