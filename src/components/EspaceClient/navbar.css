@@ -1,0 +1,296 @@
+body {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #8b1812;
+  padding: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-grow: 1;
+}
+.menu li {
+  margin: 0 80px;
+}
+.menu li a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 15px;
+  background-color: #8b1812;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+position: absolute;
+  top: 32px;
+  width: 90px;
+  text-align: center;
+  font-size: 20px;
+}
+.menu li a:hover,
+.menu li a:focus {
+  background-color: #ffffff;
+  color: #8b1812;
+}
+.menu li a:active {
+  background-color: #8b1812;
+  color: #ffffff;
+}
+.layout {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  color: #8b1812;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 5px;
+  margin-right: 20px;
+  text-decoration: none;
+  width: 150px;
+  text-align: center;
+  font-size: 20px;
+}
+.layout:hover {
+  background-color: #8b1812;
+  color: #ffffff;
+}
+.logo {
+  width: 150px;
+  height: 50px;
+}
+.telephone-icon,
+.telephone-number {
+  color: #ffffff;
+  margin-right: 5px;
+  font-size: 20px;
+}
+.content {
+  padding-top: 90px; 
+}
+.titreSpan {
+  letter-spacing: 0em; 
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.titre {
+  font-family: "roboto";
+  line-height: 47px;
+  text-shadow: 0px 10px 10px 0px #00000040;
+}
+.span {
+  font-family: "marmelad";
+  color: #8b1812;
+}
+.para {
+  font-family: "roboto";
+  font-size: 25px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #333;
+  margin-top: 0;
+}
+ .t {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding-top: 80px; 
+  } 
+  .titre2 {
+    border: 1px solid #ffffff;
+    padding: 10px;
+    width: 370px;
+    height: 150px;
+    margin: 0 20px; 
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ font-family: 'roboto';
+  }
+  .h3{
+    font-size: 25px;
+    font-family: 'roboto';   
+  } 
+  .titre2:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  } 
+  .button1 {
+    color: #ffffff;
+    background-color: #8b1812;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    position: absolute; 
+    bottom: 200px; 
+    margin: 0 2px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    width: 250px;
+    font-size: 15px;
+  }
+   .button1:hover {
+    color:  #8b1812;
+  background-color: #ffffff;
+  font-size: 15px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .titre3{
+   color: #8B1812;
+    font-family: Marmelad;
+font-size: 40px;
+font-weight: 400;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+box-shadow: 0px 4px 4px 0px #00000040 #000000;
+padding-top: 70px; 
+  }
+    .container {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  .border {
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    width: 300px;
+    height: 70px;
+    margin: 0 20px; 
+    font-family: 'roboto'; 
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;  
+    justify-content: center;
+    align-items: center;
+  }
+.border:hover{
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+  .h5{
+    color: #ffffff;
+    background-color: #8b1812;
+    border: none;
+    border-radius: 15px 15px 0 0;
+    padding: 10px 25px;
+    width: 300px;
+    margin: 0 20px; 
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'roboto';
+  } 
+ .voirplus {
+    color: #ffffff;
+    background-color: #8b1812;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    position: absolute;
+    right: 230px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  .voirplus:hover {
+    color: #8b1812;
+    background-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+ .logo1{
+  width: 150px;
+  height: 50px;
+ }
+.paralogo{
+  font-weight: bold;
+  font-family: 'roboto';
+ }
+  footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  margin: 40px;
+  }
+    .parafooter{  
+    margin: 0; 
+    padding: 0px;
+    font-family: "roboto";
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0em;
+  color: #000000;
+  }
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  } 
+  .footer-section ul li {
+    margin-bottom: 5px;  
+  } 
+  .footer-section ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-family: 'roboto';
+  } 
+  .footer-section ul li a:hover {
+    color: #8b1812;
+  }
+ .icon {
+    display: flex; 
+    list-style: none; 
+    padding: 0;
+    color: #ffffff;
+  }  
+  .icon li {
+    margin-right: 20px;   
+  }
+  .footerone{
+    color: #ffffff;
+    background: #8B1812;
+        display: flex;
+        justify-content: flex-end;
+padding-right: 30px;
+font-family: 'roboto';
+height: 35px;
+align-items: center;      
+  }
+.dropdown-content-vertical {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content-vertical a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content-vertical a:hover {
+  background-color: #f1f1f1;
+}
